@@ -16,5 +16,8 @@ class DatabaseSeeder extends Seeder
     {
         $this->call([CompetenciasSeeder::class]);
         $this->call([ResultadosSeeder::class]);
+        $this->call([SemaforosSeeder::class]);
+        $this->call([ProgramasSeeder::class]);
+        $this->call([FichasSeeder::class]);
     }
 }

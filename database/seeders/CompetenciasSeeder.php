@@ -15,6 +15,9 @@ class CompetenciasSeeder extends Seeder
      */
     public function run()
     {
+        /////////////////////////////////////////
+        ///////////--------ADSI--------//////////
+        /////////////////////////////////////////
         $competencia1 = new competencia();
         $competencia1->codigo='220501006';
         $competencia1->nombre='ESPESIFICAR';

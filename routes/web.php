@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\FormController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +14,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', function () {return view('index');});
+
+
+Route::get('/forms/', [FormController::class,'form'])->name('form');
+Route::get('/forms/edit', [FormController::class,'edit'])->name('edit');
+Route::get('/forms/create', [FormController::class,'create'])->name('create');
+
+//DELETE
+Route::get('forms/delete/{game_id}', [GameController::class,'delete'])->name('deleteprogram');
+
