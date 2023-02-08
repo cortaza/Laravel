@@ -18,11 +18,4 @@ class FormController extends Controller
         $programas=Programa::all();        
         return view('edit', ['programs'=>$programas]);
     }
-
-    public function delete($program_code){
-        // return $game_id;
-        $programas =Programa::find($program_code);
-        $programas ->delete();
-        return redirect()->route('form');
-    }
 }

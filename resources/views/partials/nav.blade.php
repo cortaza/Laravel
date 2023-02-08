@@ -14,7 +14,7 @@
         <li class="nav-item"><a href="/index" class="nav-link">EDIT</a></li>
         <li class="nav-item"><a href="{{route('edit')}}" class="nav-link">EDIT</a></li>
         <li class="nav-item"><a href="{{route('create')}}" class="nav-link">CREATE</a></li>
-        <li class="nav-item"><a href="{{route('deleteprogram')}}" class="nav-link">DELETE</a></li>        
+        <li class="nav-item"><a href="{{route('delete')}}" class="nav-link">DELETE</a></li>        
       </ul>
     </nav>
     <style>

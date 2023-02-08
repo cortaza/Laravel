@@ -1,5 +1,4 @@
 @extends('layouts.structure')
-@section('title','Form_program')
 @section('content')
 <div class="col-md-8">
                             <table class="table" >
@@ -23,7 +22,7 @@
                                         <th>{{$programa->duracion}}</th>
                                         <th>{{$programa->semaforos_id}}</th>
                                         <th><a href="" class="btn btn-info">Editar</a></th>
-                                        <th><a href="{{route('deleteprogram', $programa->codigo )}}" class="btn btn-danger">Eliminar</a></th>     
+                                        <th><a href="" class="btn btn-danger">Eliminar</a></th>
                                     </tr>
                                     @empty
                                         <tr>

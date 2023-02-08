@@ -82,5 +82,8 @@ class CompetenciasSeeder extends Seeder
         $competencia10->nombre='PRODUCIR';
         $competencia10->descripcion='PRODUCIR TEXTOS EN INGLÉS EN FORMA ESCRITA Y ORAL.';
         $competencia10->save();
+        /////////////////////////////////////////
+        ///////////--------ADSO--------//////////
+        /////////////////////////////////////////
     }
 }

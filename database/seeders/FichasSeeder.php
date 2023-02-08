@@ -15,6 +15,9 @@ class FichasSeeder extends Seeder
      */
     public function run()
     {
+        /////////////////////////////////////////
+        ///////////--------ADSI--------//////////
+        /////////////////////////////////////////
         $ficha1=new ficha();
         $ficha1->nr_ficha='2515397';
         $ficha1->programas_codigo='228106';
